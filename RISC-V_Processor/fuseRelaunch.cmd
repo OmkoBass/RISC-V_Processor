@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Xilinx/RISC-V_Processor/Data_Memory_isim_beh.exe" -prj "D:/Xilinx/RISC-V_Processor/Data_Memory_beh.prj" "Data_Memory" 
