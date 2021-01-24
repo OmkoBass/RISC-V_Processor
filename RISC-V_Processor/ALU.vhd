@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity ALU is
 	Port (
-		Alu_Control : in std_logic_vector (3 downto 0); -- The operation to be done
+		Alu_Control     : in std_logic_vector (3 downto 0); -- The operation to be done
 		Read_1		: in std_logic_vector (63 downto 0); -- First input
 		Read_2		: in std_logic_vector (63 downto 0); -- Second input
 		Alu_Result	: out std_logic_vector (63 downto 0); -- Output from ALU
